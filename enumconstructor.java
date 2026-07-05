@@ -2,7 +2,7 @@ enum laptop
 {
     Macbook(1000), Dell(800), Hp(600), Lenovo(700);
     private int price;
-    private laptop(int price)
+    private laptop(int price)//constructor
     {
         this.price=price;
     }
